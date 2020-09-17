@@ -1,7 +1,7 @@
 <!--
  * @Author: Code_Master
  * @Date: 2020-09-17 15:00:51
- * @LastEditTime: 2020-09-17 18:23:05
+ * @LastEditTime: 2020-09-17 16:16:27
  * @LastEditors: Code_Master
  * @FilePath: /privacy-policy/src/components/Info.vue
  * @Description: The first 90% of the code accounts for the first 90% of the development time. The remaining 10% of the code accounts for the other 90% of the development time.
@@ -123,18 +123,4 @@ export default {
     h1 {
         text-align: center;
     }
-    h2 {
-        color: #157CC5;
-    }
-    h3 {
-        color: #1A7FC6;
-    }
-    p {
-        text-indent:2em;
-        line-height: 1.5;
-    }
-    li {
-        line-height: 1.5;
-    }
-    
 </style>

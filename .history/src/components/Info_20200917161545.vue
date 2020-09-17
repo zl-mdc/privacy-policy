@@ -1,7 +1,7 @@
 <!--
  * @Author: Code_Master
  * @Date: 2020-09-17 15:00:51
- * @LastEditTime: 2020-09-17 18:23:05
+ * @LastEditTime: 2020-09-17 16:15:44
  * @LastEditors: Code_Master
  * @FilePath: /privacy-policy/src/components/Info.vue
  * @Description: The first 90% of the code accounts for the first 90% of the development time. The remaining 10% of the code accounts for the other 90% of the development time.
@@ -100,11 +100,8 @@
           <p>请您注意，本《隐私政策》不适用于以下情况：</p>
           <ul>
               <li>通过我们的服务而接入的第三方服务（包括任何第三方网站）收集的信息；</li>
-              <li>通过在我们服务中进行广告服务的其他公司或机构所收集的信息。 </li>
+              <li></li>
           </ul>
-
-          <h2>变更</h2>
-          <p>我们可能适时修订本《隐私政策》的条款，该等修订构成本《隐私政策》的一部分。如该等修订造成您在本《隐私政策》下权利的实质减少，我们将在修订生效前通过在主页上显著位置提示或向您发送电子邮件或以其他方式通知您。在该种情况下，若您继续使用我们的服务，即表示同意受经修订的本《隐私政策》的约束。</p>
     </div>
 </template>
 
@@ -123,18 +120,4 @@ export default {
     h1 {
         text-align: center;
     }
-    h2 {
-        color: #157CC5;
-    }
-    h3 {
-        color: #1A7FC6;
-    }
-    p {
-        text-indent:2em;
-        line-height: 1.5;
-    }
-    li {
-        line-height: 1.5;
-    }
-    
 </style>
