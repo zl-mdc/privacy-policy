@@ -1,14 +1,16 @@
 <!--
  * @Author: Code_Master
  * @Date: 2020-09-17 15:00:51
- * @LastEditTime: 2020-09-17 18:30:00
- * @LastEditors: Code_Master
+ * @LastEditTime: 2021-06-09 21:49:16
+ * @LastEditors: myjdml
  * @FilePath: /privacy-policy/src/components/Info.vue
  * @Description: The first 90% of the code accounts for the first 90% of the development time. The remaining 10% of the code accounts for the other 90% of the development time.
 -->
 <template>
     <div id="info">
           <h1>红岩网校工作站隐私政策</h1>
+
+          <p style="text-align: center;">声明人：李吉</p>
 
           <h2>引言</h2>
           <p><span></span>其明重视用户的隐私，隐私权是您重要的权利。您在使用我们的服务时，我们可能会收集和使用您的相关信息。我们希望通过本《隐私政策》向您说明，在使用我们的服务时，我们如何收集、使用、储存和分享这些信息，以及我们为您提供的访问、更新、控制和保护这些信息的方式。本《隐私政策》与您所使用的其明服务息息相关，希望您仔细阅读，在需要时，按照本《隐私政策》的指引，作出您认为适当的选择。本《隐私政策》中涉及的相关技术词汇，我们尽量以简明扼要的表述，并提供进一步说明的链接，以便您的理解。 您使用或继续使用我们的服务，即意味着同意我们按照本《隐私政策》收集、使用、储存和分享您的相关信息。 如对本《隐私政策》或相关事宜有任何问题，请与我们联系。 </p>
@@ -115,6 +117,12 @@ export default {
 </script>
 
 <style>
+    @media screen and (max-width: 840px) {
+        #info {
+            width: 90vw !important;
+            padding: 0 5vw !important;
+        }
+    }
     #info {
         width: 800px;
         margin: 0 auto;
