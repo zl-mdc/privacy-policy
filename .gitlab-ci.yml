@@ -53,8 +53,8 @@ compile_prod:
       - node_modules/
     policy: pull
   script:
-    - yarn install
-    - yarn run build
+    - npm install
+    - npm run build
   artifacts:
     expire_in: 1 week
     paths:
