@@ -33,7 +33,8 @@ compile_dev:
       - node_modules/
     policy: pull
   script:
-    - npm run build
+    - yarn install
+    - yarn run build
   artifacts:
     expire_in: 3 days
     paths:
